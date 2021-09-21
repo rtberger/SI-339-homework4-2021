@@ -28,11 +28,11 @@ body{
   font-family: "Andika", sans-serif;
   color: #000000;
   font-size: 16px;
-  margin: 1.2em;
   background-image: url('/homework4-2021/images/pigeon-background.JPEG');
   background-color: #DDDDDD;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   /*Req 1*/
 }
 
@@ -120,8 +120,12 @@ tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-tr:hover{
+tr:focus{
   background-color: rgba(126, 8, 37, .25);
+}
+
+tr:hover{
+  background-color: rgba(126, 8, 37, .25)
 }
 
 footer{
